@@ -25,3 +25,10 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     }
+li{
+    list-style-type: none;
+    color: gray;
+    font-weight: 100;
+    font-size: small;
+    padding: 8px;
+}

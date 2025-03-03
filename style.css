@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+#top-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    #content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#bottom-container{
+    width: 100vw;
+    height: 20vh;;
+   
+}
+ #bottom-container > nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }

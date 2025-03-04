@@ -12,7 +12,41 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
+    }
+    h1{
+        letter-spacing: 4px;
+        font-size: 50px;
+        font-family: fantasy;
+        font-weight: 500;
+    }
+    #hrule{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 225px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 0px;
+    }
+    #terms{
+        font-size: x-small;
+        width: 225px;
+        color: gray;
+    }
+    #terms > a {
+        color: blue;
+    }
+    button{
+        width: 225px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    button:hover{
+        background-color: lightgray;
+    }
+    #create{
+        background-color: rgb(32, 120, 243);
     }
 }
 #bottom-container{
